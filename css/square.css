@@ -1,0 +1,73 @@
+
+ 
+
+
+ 
+ /********* Canvas*************/
+ body
+ {
+    background:url(../img/city2.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	-webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+
+
+
+ #pixie{position:fixed;
+		margin: auto; /* Выравниваем по центру */
+ }
+.kvadrat{
+		position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-right: -40%;
+        transform: translate(-50%, -50%) ;
+	
+	  }
+
+
+.content ul{
+	display: inline-block;
+	list-style: none outside none;
+	padding-left: 0;
+	
+}
+
+img.animate1 {
+
+    filter: alpha (Opacity=25);
+
+    opacity: 0.25;    
+  transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+
+img.animate1:hover {
+
+    filter: alpha (Opacity=100);
+
+    opacity: 1;
+
+}
+
+.gallery li {
+	display:block;
+	float:left;
+	height:100px;
+	margin-bottom: 6px;
+	margin-right: 6px;
+	width: 100px;
+}
+
+
+.gallery li a img {
+	width: 100px; 
+	height: 100px;
+	object-fit: cover;
+}
